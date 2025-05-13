@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #f2d9f8;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav {
+    list-style: none; /* прибирає маркери (крапки) зліва від елементів */
+    padding: 0; /* прибирає відступи всередині списку */
+    margin: 0; /* прибирає відступи зовні списку */
+    display: flex; /* елементи в ряд */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav a {
+    text-decoration: none; /* прибирає лінію під текстом */
+    color: black; /* змінює синій на чорний */
+    font-weight: bold; /* робить текст жирним */
+    margin: 0 15px; /* додаткові відступи між елементами */
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .icon-right {
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 40px 0 30px;
+    font-size: 26px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 40px;
+  }
+
+
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  
+  .author {
+    text-align: center;
+    width: 180px;
+    flex-shrink: 0;
+  }
+  .author img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .author p {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0 5px;
+  }
+  
+  .author a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #fef4ff;
+    padding: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    height: fit-content;
+    margin-top: 20px;
+  }
+
+  
+  .sidebar h3 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  .sidebar li {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #222;
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .socials img {
+    width: 28px;
+    height: 28px;
+  }
+/* Updated styles for modern look */
+.page {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.page p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+.read-more, .back-button {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6200ea;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover, .back-button:hover {
+    color: #3700b3;
+}
+
+.news-item, .article {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.news-item h3, .article h3 {
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}
+
+/* Adding left padding for content on additional pages */
+.page {
+    padding-left: 20px;
+    padding-right: 20px;
+}
