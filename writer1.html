@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Макс Кідрук</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bio-img {
+      max-width: 150px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .bio-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .quote {
+      font-style: italic;
+      background: #f4f4f4;
+      border-left: 4px solid #ccc;
+      padding: 10px 15px;
+      margin: 20px 0;
+    }
+    .book-cover {
+      max-width: 120px;
+      height: auto;
+      margin-right: 15px;
+    }
+    .book-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul class="nav">
+          <li><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="home" class="icon" /></li>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="news.html">Новини</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><img src="https://cdn-icons-png.flaticon.com/512/49/49116.png" alt="search" class="icon-right"/></li>
+        </ul>
+    </nav>
+  </header>
+
+  <div class="page">
+    <section class="bio-header">
+      <h1>Макс Кідрук</h1>
+      <div class="bio-content">
+        <img src="images/kidruk.jpg" alt="Макс Кідрук" class="bio-img">
+        <p>Макс Кідрук — один із найпопулярніших сучасних українських письменників, відомий своїми науково-фантастичними та трилерними творами. Його книги вражають інтригою, технічними деталями та глибоким психологізмом.</p>
+      </div>
+    </section>
+
+    <section class="about-author">
+      <h2>Біографія</h2>
+      <p>Народився 1 квітня 1984 року в місті Рівне. Закінчив Рівненський державний гуманітарний університет за спеціальністю «Теплоенергетика». Відомий своїм захопленням наукою, подорожами та літературою, Кідрук багато часу проводить у дослідженнях, що впливають на створення його книг.</p>
+      <p>Його стиль — це комбінація динамічного сюжету, технічних деталей та глибоких роздумів про людину та її місце у світі. Макс також активно взаємодіє з читачами, проводить презентації своїх книг і виступає на літературних фестивалях.</p>
+    </section>
+
+    <section class="books">
+      <h2>Твори</h2>
+      <div class="book-item">
+        <img src="images/bot.jpg" alt="Книга Бот" class="book-cover">
+        <div>
+          <strong>Бот</strong>
+          <p>Науково-фантастичний трилер, який розповідає про таємничі події, пов'язані з технологіями штучного інтелекту.</p>
+        </div>
+      </div>
+      <div class="book-item">
+        <img src="images/doktor.jpg" alt="Книга Доки світло не згасне назавжди" class="book-cover">
+        <div>
+          <strong>Доки світло не згасне назавжди</strong>
+          <p>Емоційно насичений роман про зв'язок між життям, смертю та найтемнішими куточками людської душі.</p>
+        </div>
+      </div>
+      <div class="book-item">
+        <img src="images/nesvyatyi.jpg" alt="Не озирайся і мовчи" class="book-cover">
+        <div>
+          <strong>Не озирайся і мовчи</strong>
+          <p>Психологічний трилер, що змушує замислитись про моральні дилеми та наслідки наших виборів.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quotes">
+      <h2>Цитати</h2>
+      <div class="quote">“Мрії — це найбільш дивна форма відчайдушності.”</div>
+      <div class="quote">“Люди, які бояться змін, завжди залишаються у минулому.”</div>
+    </section>
+
+    <section class="related-content">
+      <h2>Цікаві факти</h2>
+      <ul>
+        <li>Макс Кідрук є одним із засновників жанру технотрилера в Україні.</li>
+        <li>Він часто співпрацює з науковцями для забезпечення реалістичності своїх книг.</li>
+        <li>Його книги перекладено на декілька мов, серед яких англійська, польська та німецька.</li>
+      </ul>
+    </section>
+
+    <a class="back-button" href="index.html">← Назад</a>
+  </div>
+</body>
+</html>
